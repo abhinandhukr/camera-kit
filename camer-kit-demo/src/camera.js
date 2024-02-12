@@ -29,7 +29,7 @@ const Camera = ({showCamera, onClose }) => {
             await activeSession.play();
           
             const lens = await cameraKit.lensRepository.loadLens(
-              '43276930875',
+              '43301890875',
               'b003a1ba-8c92-47e4-bdf6-d618f1195e0a'
             );
           

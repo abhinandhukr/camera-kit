@@ -248,14 +248,14 @@ const Dashboard = () => {
         </div>
     </div>
 
-    {/* ... rest of your dashboard content ... */}
 
-    {/* Modal Trigger Button */}
-    <button className="open-modal-button" onClick={openModal}>
-      Open Modal
+    <button className="open-modal-button flex items-center justify-center p-2 bg-blue-500 text-white rounded-md" onClick={openModal}>
+    <svg width="30" height="30" viewBox="0 0 100 100">
+        <path d="M50 15 L65 85 L10 35 H90 L25 85 Z" fill="orange"/>
+    </svg>
+       
     </button>
 
-    {/* Modal Component */}
     {showModal && <Modal showCamera={showCamera} handleClose={closeModal} />}
     </div>
   );

@@ -11,7 +11,7 @@ const Modal = ({ showCamera, handleClose }) => {
     <div className="modal">
       <div className="modal-content">
         <span className="close" onClick={handleClose}>&times;</span>
-        <Push2WebTest showCamera = {showCamera} onClose={handleClose}/>
+        <Camera showCamera = {showCamera} onClose={handleClose}/>
       </div>
     </div>
   );
