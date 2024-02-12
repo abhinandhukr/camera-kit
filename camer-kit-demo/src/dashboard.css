@@ -1,0 +1,69 @@
+
+.dashboard {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    max-width: none;
+  }
+  .row {
+    display: flex;
+    flex: 1;
+  }
+  .row:first-child {
+    margin-bottom: 8px;
+  }
+  .full-width {
+    flex-grow: 1;
+    margin-right: 8px;
+  }
+  .half-width {
+    flex-grow: 1;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%; /* Or any desired width */
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .open-modal-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001; /* Higher than the modal to ensure it's clickable */
+  }
+  
