@@ -19,6 +19,7 @@ const Dashboard = () => {
       const closeModal = () => {
         setShowModal(false);
         setShowCamera(false); // Disable Camera when closing the modal
+        window.location.reload();
       };
   
   useEffect(() => {
