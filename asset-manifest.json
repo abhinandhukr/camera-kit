@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/camera-kit/static/css/main.0d9459cf.css",
+    "main.css": "/camera-kit/static/css/main.1faeed8f.css",
     "main.js": "/camera-kit/static/js/main.aa4e4a44.js",
+    "static/media/bg.png": "/camera-kit/static/media/bg.08edc5cc6ce0110ae876.png",
     "index.html": "/camera-kit/index.html",
-    "main.0d9459cf.css.map": "/camera-kit/static/css/main.0d9459cf.css.map",
+    "main.1faeed8f.css.map": "/camera-kit/static/css/main.1faeed8f.css.map",
     "main.aa4e4a44.js.map": "/camera-kit/static/js/main.aa4e4a44.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d9459cf.css",
+    "static/css/main.1faeed8f.css",
     "static/js/main.aa4e4a44.js"
   ]
 }
