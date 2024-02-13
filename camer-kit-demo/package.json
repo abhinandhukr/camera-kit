@@ -2,6 +2,7 @@
   "name": "camer-kit-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abhinandhukr.github.io/camera-kit",
   "dependencies": {
     "@snap/push2web": "^0.14.1",
     "@testing-library/jest-dom": "^5.17.0",
