@@ -28,7 +28,9 @@
     margin-right: 8px;
   }
   .half-width {
-    flex-grow: 1;
+    width: 800px; /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
+    overflow: hidden; /* Optional: use this to prevent any overflow */
   }
 
   .modal {
