@@ -1,0 +1,53 @@
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera-content {
+    display: flex;
+    align-items: center;
+}
+
+.camera-instructions {
+    margin-left: 20px; /* Adjust as needed */
+    text-align: left;
+}
+
+.development-mode {
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.camera-instructions {
+    margin-left: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; /* Spacing between items */
+}
+
+.camera-instructions p {
+    position: relative;
+    padding-left: 40px; /* Space for icon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.camera-instructions p:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    background-image: url('../public/QVisionLogo.png'); /* Icon URL */
+    background-size: cover;
+}
+
+.camera-instructions p:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

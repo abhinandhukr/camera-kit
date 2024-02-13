@@ -7,23 +7,6 @@ html, body {
 }
 
 
-body {
-  /* The image used */
-  background-image: url("../public/bg.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Fixed background */
-  background-attachment: fixed;
-}
-
-
 .dashboard {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -89,7 +72,7 @@ body {
   
   .open-modal-button {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     z-index: 1001; /* Higher than the modal to ensure it's clickable */
   }

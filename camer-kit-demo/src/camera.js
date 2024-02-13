@@ -1,6 +1,7 @@
 import { bootstrapCameraKit } from '@snap/camera-kit';
 import { useEffect, useState } from 'react';
 import { Push2Web } from "@snap/push2web";
+import './camera.css';
 
 
 
@@ -16,7 +17,7 @@ const Camera = ({showCamera, onClose }) => {
               apiToken: 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzA3NjUzMTU1LCJzdWIiOiIyZjBhM2RiMC02M2RhLTQ4NzQtYjE2YS04ODdhYjNkMDAwMjh-U1RBR0lOR34yYTdkODlhMS03NzE2LTQ3MzItYWUyNS0wMTg4MzI0NGY5MDcifQ.tora2ZH3-FOrZIMoWJHmc5tZthXtmDoOZBeY877CWDQ',
             });
             const liveRenderTarget = document.getElementById(
-              'canvas'
+              'cameracanvas'
             );
             const activeSession = await cameraKit.createSession({ liveRenderTarget });
             await setSession(activeSession);
@@ -53,10 +54,19 @@ const Camera = ({showCamera, onClose }) => {
     },[])
 
     return (
-        <div>
-            {showCamera &&  <canvas id="canvas"></canvas>}
-           
-        </div>
+      <div className="camera-container">
+      <div className="camera-content">
+          {showCamera && <canvas id="cameracanvas"></canvas>}
+          <div className="camera-instructions">
+              <p>Tap once to open share price</p>
+              <p>Grab it to close</p>
+          </div>
+      </div>
+      <div className="development-mode">
+          <p>Development mode - still not full</p>
+      </div>
+  </div>
+  
     )
 }
 
