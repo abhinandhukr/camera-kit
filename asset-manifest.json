@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/camera-kit/static/css/main.f180493d.css",
-    "main.js": "/camera-kit/static/js/main.aa4e4a44.js",
+    "main.css": "/camera-kit/static/css/main.1cf0118b.css",
+    "main.js": "/camera-kit/static/js/main.a369ca84.js",
+    "static/media/QVisionLogo.png": "/camera-kit/static/media/QVisionLogo.280c0d484f1a23447eee.png",
     "static/media/bg.png": "/camera-kit/static/media/bg.08edc5cc6ce0110ae876.png",
     "index.html": "/camera-kit/index.html",
-    "main.f180493d.css.map": "/camera-kit/static/css/main.f180493d.css.map",
-    "main.aa4e4a44.js.map": "/camera-kit/static/js/main.aa4e4a44.js.map"
+    "main.1cf0118b.css.map": "/camera-kit/static/css/main.1cf0118b.css.map",
+    "main.a369ca84.js.map": "/camera-kit/static/js/main.a369ca84.js.map"
   },
   "entrypoints": [
-    "static/css/main.f180493d.css",
-    "static/js/main.aa4e4a44.js"
+    "static/css/main.1cf0118b.css",
+    "static/js/main.a369ca84.js"
   ]
 }
